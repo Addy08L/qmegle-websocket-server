@@ -2,9 +2,9 @@
   "name": "qmegle-websocket-server",
   "version": "1.0.0",
   "description": "A WebSocket signaling server for Qmegle chat app.",
-  "main": "./src/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node ./src/server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "ws": "^8.13.0"
